@@ -1,0 +1,5 @@
+Django==2.2
+Djangorestframework==3.11.0
+djoser==2.0.3
+django-adminlte2==0.4.1
+pip==20.0.2
