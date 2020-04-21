@@ -26,3 +26,5 @@ urlpatterns = [
 
 
 admin.site.site_header = "Incident Management System"
+admin.site.index_title = 'Incident Management'
+admin.site.site_title = 'IMS'
