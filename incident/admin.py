@@ -5,7 +5,7 @@ from incident.models import Incidents
 # Register your models here.
 
 class incidentsAdmin(admin.ModelAdmin):
-        list_display = ('id', 'client_id', 'deployment_id', 'title','time', 'severity', 'priority', 'status')
+        list_display = ('id', 'machine_id', 'client_id', 'deployment_id', 'title','time', 'severity', 'priority', 'status')
 
         def save_model(self, request, obj, form, change):
                 obj.author = request.user
