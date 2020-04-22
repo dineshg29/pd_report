@@ -24,3 +24,16 @@ STATUS =(
             ('Acknowledged', "Acknowledged"),
             ('Resolved', "Resolved"),
         )
+
+CLIENTS = (
+        (1,'Verizon'),
+        (2,'Strata'),
+        (3,'Apollo Hospitals'),
+        (4,'Huntington Police'),
+        (5,'Dental Hospital'),
+        (6,'Samsung'),
+        (7,'XPO Logistics'),
+        (8,'Proud ventures'),
+        (9,'Sacramento Kings'),
+        (10,'Konica'),
+        )

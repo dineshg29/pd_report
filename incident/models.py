@@ -10,7 +10,7 @@ class Incidents(models.Model):
     # incident_id = get_random_string
     author = models.ForeignKey('auth.User', null=True, editable=False, on_delete=models.CASCADE)
     machine_id = models.CharField(max_length = 100)        
-    client_id = models.CharField(max_length = 100)        
+    client_id = models.IntegerField(max_length = 100, choices = CLIENTS, default='')
     deployment_id = models.CharField(max_length = 100)        
     module = models.CharField(max_length = 100, blank=True, null=True)        
     package = models.CharField(max_length = 100, blank=True, null=True)        
